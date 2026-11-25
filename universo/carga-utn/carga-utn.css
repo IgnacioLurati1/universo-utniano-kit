@@ -1,0 +1,105 @@
+/* The UTN emblem still and dark, and a light that goes around its edge with a trail. Change the colors with the
+   variables; the size, with the width of the svg. */
+.carga-utn {
+  --carga-fondo: #020207;
+  --carga-emblema: #0b0c10;
+  --carga-borde: rgb(255 255 255 / 0.14);
+  --carga-estela: rgb(255 214 160 / 0.35);
+  --carga-haz: #fff4e2;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.carga-utn--pantalla {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  background: var(--carga-fondo);
+  transition:
+    opacity 400ms ease-out,
+    visibility 0s linear 0s;
+}
+
+/* When the content is ready, the placeholder fades out. */
+.carga-utn--lista {
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 400ms ease-out,
+    visibility 0s linear 400ms;
+}
+
+.carga-utn svg {
+  width: clamp(72px, 9vw, 112px);
+  height: auto;
+  overflow: visible;
+}
+
+.carga-utn__base {
+  fill: var(--carga-emblema);
+  stroke: var(--carga-borde);
+  stroke-width: 0.8;
+}
+
+.carga-utn__estela,
+.carga-utn__haz {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.carga-utn__estela {
+  stroke: var(--carga-estela);
+  stroke-width: 1.4;
+  stroke-dasharray: 26 74;
+  stroke-dashoffset: 120;
+  filter: drop-shadow(0 0 2px rgb(255 190 120 / 0.6));
+}
+
+.carga-utn__haz {
+  stroke: var(--carga-haz);
+  stroke-width: 1.8;
+  stroke-dasharray: 6 94;
+  stroke-dashoffset: 100;
+  filter: drop-shadow(0 0 3px rgb(255 210 150 / 0.95)) drop-shadow(0 0 8px rgb(255 170 90 / 0.6));
+}
+
+/* With reduced motion the emblem stays still, with the beam stopped on its edge. */
+@media (prefers-reduced-motion: no-preference) {
+  .carga-utn__haz {
+    animation: carga-utn-haz 2.4s linear infinite;
+  }
+  .carga-utn__estela {
+    animation: carga-utn-estela 2.4s linear infinite;
+  }
+}
+
+/* Both ends go together: the trail is longer and starts 20 behind. */
+@keyframes carga-utn-haz {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes carga-utn-estela {
+  from {
+    stroke-dashoffset: 120;
+  }
+  to {
+    stroke-dashoffset: 20;
+  }
+}
+
+/* Heard by screen readers, not seen. */
+.carga-utn__lectores {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

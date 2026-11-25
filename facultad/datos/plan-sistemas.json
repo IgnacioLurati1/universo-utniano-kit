@@ -1,0 +1,609 @@
+{
+  "carrera": "Ingeniería en Sistemas de Información",
+  "facultad": "UTN Facultad Regional Rosario",
+  "plan": "2023",
+  "obligatorias": [
+    {
+      "n": 1,
+      "id": "analisis-matematico-i",
+      "nombre": "Análisis Matemático I",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 2,
+      "id": "algebra-y-geometria-analitica",
+      "nombre": "Álgebra y Geometría Analítica",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 3,
+      "id": "fisica-i",
+      "nombre": "Física I",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 4,
+      "id": "ingles-i",
+      "nombre": "Inglés I",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 5,
+      "id": "logica-y-estructuras-discretas",
+      "nombre": "Lógica y Estructuras Discretas",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 6,
+      "id": "algoritmos-y-estructuras-de-datos",
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 7,
+      "id": "arquitectura-de-computadoras",
+      "nombre": "Arquitectura de Computadoras",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 8,
+      "id": "sistemas-y-procesos-de-negocio",
+      "nombre": "Sistemas y Procesos de Negocio",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 1,
+      "dictado": "Anual"
+    },
+    {
+      "n": 9,
+      "id": "analisis-matematico-ii",
+      "nombre": "Análisis Matemático II",
+      "cursadas": [
+        1,
+        2
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Anual"
+    },
+    {
+      "n": 10,
+      "id": "fisica-ii",
+      "nombre": "Física II",
+      "cursadas": [
+        1,
+        3
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Anual"
+    },
+    {
+      "n": 11,
+      "id": "ingenieria-y-sociedad",
+      "nombre": "Ingeniería y Sociedad",
+      "cursadas": [],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 12,
+      "id": "ingles-ii",
+      "nombre": "Inglés II",
+      "cursadas": [
+        4
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Anual"
+    },
+    {
+      "n": 13,
+      "id": "sintaxis-y-semantica-de-los-lenguajes",
+      "nombre": "Sintaxis y Semántica de los Lenguajes",
+      "cursadas": [
+        5,
+        6
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 14,
+      "id": "paradigmas-de-programacion",
+      "nombre": "Paradigmas de Programación",
+      "cursadas": [
+        5,
+        6
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 15,
+      "id": "sistemas-operativos",
+      "nombre": "Sistemas Operativos",
+      "cursadas": [
+        7
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 16,
+      "id": "analisis-de-sistemas-de-informacion",
+      "nombre": "Análisis de Sistemas de Información",
+      "cursadas": [
+        6,
+        8
+      ],
+      "aprobadas": [],
+      "anio": 2,
+      "dictado": "Anual"
+    },
+    {
+      "n": 17,
+      "id": "probabilidad-y-estadistica",
+      "nombre": "Probabilidad y Estadística",
+      "cursadas": [
+        1,
+        2
+      ],
+      "aprobadas": [],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 18,
+      "id": "economia",
+      "nombre": "Economía",
+      "cursadas": [],
+      "aprobadas": [
+        1,
+        2
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 19,
+      "id": "bases-de-datos",
+      "nombre": "Bases de Datos",
+      "cursadas": [
+        13,
+        16
+      ],
+      "aprobadas": [
+        5,
+        6
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 20,
+      "id": "desarrollo-de-software",
+      "nombre": "Desarrollo de Software",
+      "cursadas": [
+        14,
+        16
+      ],
+      "aprobadas": [
+        5,
+        6
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 21,
+      "id": "comunicacion-de-datos",
+      "nombre": "Comunicación de Datos",
+      "cursadas": [],
+      "aprobadas": [
+        3,
+        7
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 22,
+      "id": "analisis-numerico",
+      "nombre": "Análisis Numérico",
+      "cursadas": [
+        9
+      ],
+      "aprobadas": [
+        1,
+        2
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 23,
+      "id": "diseno-de-sistemas-de-informacion",
+      "nombre": "Diseño de Sistemas de Información",
+      "cursadas": [
+        14,
+        16
+      ],
+      "aprobadas": [
+        4,
+        6,
+        8
+      ],
+      "anio": 3,
+      "dictado": "Anual"
+    },
+    {
+      "n": 24,
+      "id": "legislacion",
+      "nombre": "Legislación",
+      "cursadas": [
+        11
+      ],
+      "aprobadas": [],
+      "anio": 4,
+      "dictado": "Anual"
+    },
+    {
+      "n": 25,
+      "id": "ingenieria-y-calidad-de-software",
+      "nombre": "Ingeniería y Calidad de Software",
+      "cursadas": [
+        19,
+        20,
+        23
+      ],
+      "aprobadas": [
+        13,
+        14
+      ],
+      "anio": 4,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 26,
+      "id": "redes-de-datos",
+      "nombre": "Redes de Datos",
+      "cursadas": [
+        15,
+        21
+      ],
+      "aprobadas": [],
+      "anio": 4,
+      "dictado": "Anual"
+    },
+    {
+      "n": 27,
+      "id": "investigacion-operativa",
+      "nombre": "Investigación Operativa",
+      "cursadas": [
+        17,
+        22
+      ],
+      "aprobadas": [],
+      "anio": 4,
+      "dictado": "Anual"
+    },
+    {
+      "n": 28,
+      "id": "simulacion",
+      "nombre": "Simulación",
+      "cursadas": [
+        17
+      ],
+      "aprobadas": [
+        9
+      ],
+      "anio": 4,
+      "dictado": "Anual"
+    },
+    {
+      "n": 29,
+      "id": "tecnologias-para-la-automatizacion",
+      "nombre": "Tecnologías para la Automatización",
+      "cursadas": [
+        10,
+        22
+      ],
+      "aprobadas": [
+        9
+      ],
+      "anio": 4,
+      "dictado": "Cuatrimestral"
+    },
+    {
+      "n": 30,
+      "id": "administracion-de-sistemas-de-informacion",
+      "nombre": "Administración de Sistemas de Información",
+      "cursadas": [
+        18,
+        23
+      ],
+      "aprobadas": [
+        16
+      ],
+      "anio": 4,
+      "dictado": "Anual"
+    },
+    {
+      "n": 31,
+      "id": "inteligencia-artificial",
+      "nombre": "Inteligencia Artificial",
+      "cursadas": [
+        28
+      ],
+      "aprobadas": [
+        17,
+        22
+      ],
+      "anio": 5,
+      "dictado": "Anual"
+    },
+    {
+      "n": 32,
+      "id": "ciencia-de-datos",
+      "nombre": "Ciencia de Datos",
+      "cursadas": [
+        28
+      ],
+      "aprobadas": [
+        17,
+        19
+      ],
+      "anio": 5,
+      "dictado": "Anual"
+    },
+    {
+      "n": 33,
+      "id": "sistemas-de-gestion",
+      "nombre": "Sistemas de Gestión",
+      "cursadas": [
+        18,
+        27
+      ],
+      "aprobadas": [
+        23
+      ],
+      "anio": 5,
+      "dictado": "Anual"
+    },
+    {
+      "n": 34,
+      "id": "gestion-gerencial",
+      "nombre": "Gestión Gerencial",
+      "cursadas": [
+        24,
+        30
+      ],
+      "aprobadas": [
+        18
+      ],
+      "anio": 5,
+      "dictado": "Anual"
+    },
+    {
+      "n": 35,
+      "id": "seguridad-en-los-sistemas-de-informacion",
+      "nombre": "Seguridad en los Sistemas de Información",
+      "cursadas": [
+        26,
+        30
+      ],
+      "aprobadas": [
+        20,
+        21
+      ],
+      "anio": 5,
+      "dictado": "Anual"
+    }
+  ],
+  "electivas": [
+    {
+      "id": "algoritmos-geneticos",
+      "nombre": "Algoritmos Genéticos",
+      "cursadas": [
+        13,
+        14
+      ],
+      "aprobadas": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "dictado": "Anual",
+      "horas": 4
+    },
+    {
+      "id": "analisis-y-diseno-de-datos-e-informacion",
+      "nombre": "Análisis y Diseño de Datos e Información",
+      "cursadas": [
+        8,
+        13
+      ],
+      "aprobadas": [
+        6
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 6
+    },
+    {
+      "id": "direccion-de-recursos-humanos",
+      "nombre": "Dirección de Recursos Humanos",
+      "cursadas": [
+        30
+      ],
+      "aprobadas": [],
+      "dictado": "Cuatrimestral",
+      "horas": 6
+    },
+    {
+      "id": "entornos-graficos",
+      "nombre": "Entornos Gráficos",
+      "cursadas": [
+        5
+      ],
+      "aprobadas": [
+        6,
+        8
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 8
+    },
+    {
+      "id": "gestion-ingenieril",
+      "nombre": "Gestión Ingenieril",
+      "cursadas": [],
+      "aprobadas": [
+        8
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 8
+    },
+    {
+      "id": "informatica-juridica",
+      "nombre": "Informática Jurídica",
+      "cursadas": [
+        15
+      ],
+      "aprobadas": [
+        6,
+        7,
+        8
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 6
+    },
+    {
+      "id": "infraestructura-tecnologica",
+      "nombre": "Infraestructura Tecnológica",
+      "cursadas": [
+        16
+      ],
+      "aprobadas": [
+        15
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 8
+    },
+    {
+      "id": "introduccion-a-la-practica-profesional",
+      "nombre": "Introducción a la Práctica Profesional",
+      "cursadas": [],
+      "aprobadas": [
+        16
+      ],
+      "dictado": "Anual",
+      "horas": 4
+    },
+    {
+      "id": "lenguaje-de-programacion-java",
+      "nombre": "Lenguaje de Programación JAVA",
+      "cursadas": [],
+      "aprobadas": [
+        14
+      ],
+      "dictado": "Anual",
+      "horas": 4
+    },
+    {
+      "id": "metodologia-de-la-investigacion",
+      "nombre": "Metodología de la Investigación",
+      "cursadas": [],
+      "aprobadas": [
+        17
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 8
+    },
+    {
+      "id": "quimica",
+      "nombre": "Química",
+      "cursadas": [],
+      "aprobadas": [],
+      "dictado": "Cuatrimestral",
+      "horas": 6
+    },
+    {
+      "id": "sistemas-de-informacion-geografica",
+      "nombre": "Sistemas de Información Geográfica",
+      "cursadas": [
+        1,
+        6
+      ],
+      "aprobadas": [
+        2
+      ],
+      "dictado": "Cuatrimestral",
+      "horas": 6
+    },
+    {
+      "id": "sistemas-de-representacion",
+      "nombre": "Sistemas de Representación",
+      "cursadas": [],
+      "aprobadas": [],
+      "dictado": "Anual",
+      "horas": 3
+    },
+    {
+      "id": "soporte-a-la-gestion-de-datos-con-programacion-visual",
+      "nombre": "Soporte a la Gestión de Datos con Programación Visual",
+      "cursadas": [
+        19
+      ],
+      "aprobadas": [
+        13,
+        14
+      ],
+      "dictado": "Anual",
+      "horas": 4
+    },
+    {
+      "id": "tecnologias-de-desarrollo-de-software-ide",
+      "nombre": "Tecnologías de Desarrollo de Software IDE",
+      "cursadas": [],
+      "aprobadas": [
+        5,
+        13,
+        14
+      ],
+      "dictado": "Anual",
+      "horas": 4
+    }
+  ],
+  "sinCorrelativas": [
+    "Cobol",
+    "Formación de Emprendedores",
+    "Prácticas Profesionales Supervisadas",
+    "Seminario Integrador"
+  ]
+}

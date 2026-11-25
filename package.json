@@ -1,0 +1,21 @@
+{
+  "name": "universo-utniano-kit",
+  "version": "0.1.0",
+  "description": "Piezas sueltas para armar herramientas para alumnos de la UTN",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "revisar": "node scripts/revisar.mjs"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.3",
+    "jsdom": "^27.4.0",
+    "pdfjs-dist": "^6.5.438",
+    "vitest": "^5.1.2"
+  }
+}
