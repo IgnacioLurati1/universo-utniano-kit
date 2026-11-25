@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { buscar, desordenado, leerArreglo, leerDato } from './dicotomica.js';
 
-// The array of the notes of Algoritmos y Estructuras de Datos (parcial-2.md of El Santo Resumen, «resumen arreglos»):
+// The array of the notes of Algoritmos y Estructuras de Datos (of El Santo Resumen, «resumen arreglos»):
 // 15 sorted numbers, looking for 47. medio = (comienzo + fin) DIV 2; smaller, fin = medio − 1; bigger,
 // comienzo = medio + 1; until it's found or comienzo > fin, and then −1.
 const APUNTE = '3, 7, 12, 18, 21, 25, 30, 34, 41, 47, 52, 58, 63, 70, 76';

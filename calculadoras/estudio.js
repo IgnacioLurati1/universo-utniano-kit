@@ -1,10 +1,10 @@
 import { compilar, derivar } from '../formulas/formula.js';
 import { borde, integral, limpio, salto } from './trazado.js';
 
-// The study of a function of Análisis Matemático I, in the order the exams ask for it (parcial-2.md of El Santo Resumen,
+// The study of a function of Análisis Matemático I, in the order the exams ask for it (El Santo Resumen,
 // «Estudio completo de una función»): domain, cuts with the axes, parity, asymptotes, growth and extrema with the sign
 // of f', concavity and inflection with the sign of f''. Also the tangent line («La derivada») and the area between
-// curves (integrales.md). Everything is found by numbers inside the window, so it's a check of what the student worked
+// curves. Everything is found by numbers inside the window, so it's a check of what the student worked
 // out by hand, never a proof: the sheet writes it with ≈.
 
 const N = 1200;
@@ -345,7 +345,7 @@ function integralFirme(f, a, b) {
 }
 
 /**
- * The area between f and g from a to b (integrales.md, «Área entre curvas»): where they cross, and in each stretch the
+ * The area between f and g from a to b («Área entre curvas»): where they cross, and in each stretch the
  * integral of roof minus floor. Gives { cortes, tramos: [{ a, b, techo, valor }], total } or { error }.
  */
 export function areaEntre(f, g, a, b) {

@@ -1,4 +1,4 @@
-// Búsqueda dicotómica of Algoritmos y Estructuras de Datos, as the notes write it (parcial-2.md of El Santo Resumen,
+// Búsqueda dicotómica of Algoritmos y Estructuras de Datos, as the notes write it (El Santo Resumen,
 // «resumen arreglos», page 1): the array sorted, comienzo, fin and medio = (comienzo + fin) DIV 2. If V[medio] is the
 // datum it's found; if the datum is smaller, fin = medio − 1; if bigger, comienzo = medio + 1. Until it's found or
 // comienzo > fin, and then the function returns −1. Positions from 0 or from 1, as the practice's arrays.

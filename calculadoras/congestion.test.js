@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { correr, leerVentana, tramos } from './congestion.js';
 
-// The figure of Redes de Datos (parcial-2.md of El Santo Resumen, Capa de Transporte, TCP, page 16): threshold 32,
+// The figure of Redes de Datos (of El Santo Resumen, Capa de Transporte, TCP, page 16): threshold 32,
 // slow start up to it and then one by one. The segment is lost with the window at 40 and the threshold drops to 20.
 // Tahoe goes back to 1; Reno goes on from 20.
 const FIGURA = { umbral: 32, inicial: 1, rondas: 24, perdidas: [13] };

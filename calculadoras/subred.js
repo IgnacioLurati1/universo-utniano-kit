@@ -1,4 +1,4 @@
-// Subredes of Redes de Datos, with the practice's method (parcial-2.md of El Santo Resumen, Conceptos IPv4, pages 23 to
+// Subredes of Redes de Datos, with the practice's method (El Santo Resumen, Conceptos IPv4, pages 23 to
 // 27): three formulas, 2^N ≥ C, 2^M − 2 = H and salto = 256 − the last decimal of the mask. N are the subnet bits, C
 // the subnets asked, M the host bits and H the hosts. The network comes out of an AND between address and mask.
 // Logic of El Santo Resumen's simulator (its simulator code). VLSM is not in the notes.
@@ -38,7 +38,7 @@ export function leerRed(texto) {
 
 /**
  * The exercise: the network and what is asked (pide: 'c' subnets, 'h' hosts per subnet, 'n' subnet bits) with how
- * many. { ... } with every number of the resolution, or { error, en } with the field that is wrong.
+ * many. {... } with every number of the resolution, or { error, en } with the field that is wrong.
  */
 export function subdividir(textoRed, pide, cuanto) {
   const r = leerRed(textoRed);

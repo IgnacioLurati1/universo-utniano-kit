@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { analizar, deParesTexto, leerConjunto, leerPares, matriz } from './relaciones.js';
 
 // The examples are the ones of the notes of Lógica y Estructuras Discretas: Ejemplo 3 of Relaciones y digrafos III
-// (parcial-2.md, «Las seis propiedades»), with R², and Ejemplo 8 for the domain and range.
+// («Las seis propiedades»), with R², and Ejemplo 8 for the domain and range.
 const A = ['1', '2', '3', '4'];
 const de = (texto) => analizar(A, leerPares(texto, A).pares);
 const r2 = (x) => deParesTexto(x.r2.map((v) => v.par));

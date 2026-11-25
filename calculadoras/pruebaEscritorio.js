@@ -1,4 +1,4 @@
-// Desk checks of Simulación, event by event, as the course notes run them (El Santo Resumen, simulacion/parcial.md,
+// Desk checks of Simulación, event by event, as the course notes run them (El Santo Resumen,
 // course notes, folios 7 to 23): the single-server queue and the (s, S) inventory. The logic is the simulator's
 // of El Santo Resumen (its simulator code, simularCola and simularInventario), with the same order of
 // events on a tie and the same use of the random numbers. Each row is the state after one event, with what changed.

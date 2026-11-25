@@ -1,6 +1,6 @@
 // Campo de dos cargas, of Física II: point charges in the plane (two, and a third when the problem brings it), the field
 // of each one at P and their vector sum, the potential at P as a sum of numbers, the force on a charge q₀ put at P and
-// Coulomb's force between q₁ and q₂. Formulas, k and examples: parcial-1.md and ejercicios.json of El Santo Resumen
+// Coulomb's force between q₁ and q₂. Formulas, k and examples: El Santo Resumen
 // (Teoría 2025 (001), (002) and (004); 1° parcial 18/06/2025).
 import { leerPunto } from './campo.js';
 import { leerNumero } from '../formulas/decimales.js';

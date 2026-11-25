@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { descomponer, formas, leer, motor, pasosCierre, pasosClaves, pasosFormas } from './dependencias.js';
 
-// The examples are the ones of the notes of Bases de Datos (preguntas.json, from the 1° parcial of 25/09/2023, ETAPAS,
+// The examples are the ones of the notes of Bases de Datos (from the 1° parcial of 25/09/2023, ETAPAS,
 // and of 29/09/2025, PRODUCTO), with the normal form the course gives for each.
 const ETAPAS = ['ETAPAS(nroProyecto, nroEtapa, descProyecto, detalleEtapa)', 'nroProyecto, nroEtapa -> detalleEtapa\nnroProyecto -> descProyecto'];
 const PRODUCTO = ['PRODUCTO(idProducto, nombre, codCategoria, nombreCategoria)', 'idProducto -> nombre, codCategoria\ncodCategoria -> nombreCategoria'];

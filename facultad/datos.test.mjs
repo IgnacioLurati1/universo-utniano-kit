@@ -13,10 +13,16 @@ describe('plan-sistemas.json', () => {
     expect(plan.obligatorias.map((m) => m.n)).toEqual(Array.from({ length: 35 }, (_, i) => i + 1));
   });
 
+  it('has the Seminario Integrador with what it asks to take it and to pass it', () => {
+    const seminario = plan.otras.find((m) => m.id === 'seminario-integrador');
+    expect(seminario).toMatchObject({ cursadas: [16], paraRendir: [6, 8, 13, 14] });
+    expect(plan.sinCorrelativas).not.toContain('Seminario Integrador');
+  });
+
   it('only asks for subjects that exist and never for itself', () => {
     const numeros = new Set(plan.obligatorias.map((m) => m.n));
-    for (const m of [...plan.obligatorias, ...plan.electivas]) {
-      for (const n of [...m.cursadas, ...m.aprobadas]) {
+    for (const m of [...plan.obligatorias, ...plan.electivas, ...plan.otras]) {
+      for (const n of [...m.cursadas, ...m.aprobadas, ...(m.paraRendir ?? [])]) {
         expect(numeros.has(n), `${m.nombre} pide la ${n}`).toBe(true);
         expect(n).not.toBe(m.n);
       }

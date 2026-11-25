@@ -1,4 +1,4 @@
-// A relation on a set, as Lógica y Estructuras Discretas works it (parcial-2.md, «Relación», «Matriz y digrafo»,
+// A relation on a set, as Lógica y Estructuras Discretas works it («Relación», «Matriz y digrafo»,
 // «Trayectorias y Rⁿ», «Las seis propiedades» and «Relaciones de equivalencia»): pairs, matrix, domain and range, R² by
 // paths of length 2 and the six properties one by one. The reading and the properties are El Santo Resumen's
 // (its simulator code, leerConjunto, leerPares and propiedades).

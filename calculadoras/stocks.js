@@ -1,5 +1,5 @@
 // Gestión de stocks of Investigación Operativa, the models of the course notes with their notation (El Santo
-// Resumen, investigacion-operativa/parcial-3.md, apunte de Gestión de Stocks, págs. 10 to 44): basic model,
+// Resumen, apunte de Gestión de Stocks, págs. 10 to 44): basic model,
 // consumption during the entry, quantity discounts (one step and over the excess), common period, financial
 // restriction with Lagrange and safety stock. Fields and formulas, the simulator's of El Santo Resumen
 // (its simulator code, MODELOS_STOCK).

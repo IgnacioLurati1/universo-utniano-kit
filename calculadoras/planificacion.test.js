@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { comparar, leerProcesos, planificar, tiempo } from './planificacion.js';
 
-// The examples of Sistemas Operativos (parcial.md and emergencia.md of El Santo Resumen): the practice's 24, 3 and 3 ms
+// The examples of Sistemas Operativos (of El Santo Resumen): the practice's 24, 3 and 3 ms
 // with quantum 4, FCFS in both orders, and the book's SJF and its counterexample. With the averages they give.
 const procesos = (rafagas, llegadas = rafagas.map(() => 0), nombres = rafagas.map((_, i) => `P${i + 1}`), prioridades = rafagas.map(() => 0)) =>
   rafagas.map((rafaga, i) => ({ nombre: nombres[i], llegada: llegadas[i], rafaga, prioridad: prioridades[i] }));

@@ -1,6 +1,6 @@
 // Tiro oblicuo, of Física I: a body thrown with v₀ at φ over the horizontal from a height y₀, without air. The two
 // movements apart (uniform in x, uniformly varied in y), the highest point, the time of flight, the reach, the velocity
-// on arrival and where it is at an instant t. Notation and formulas: parcial-1.md of El Santo Resumen («Cinemática -
+// on arrival and where it is at an instant t. Notation and formulas: El Santo Resumen («Cinemática -
 // resumen», págs. 4 y 5, and the «Teoría Ampliada» de Movimiento de Proyectiles, págs. 1 y 2).
 import { leerNumero } from '../formulas/decimales.js';
 

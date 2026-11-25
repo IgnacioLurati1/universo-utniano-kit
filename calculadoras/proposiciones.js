@@ -1,7 +1,7 @@
 // Propositional logic for the truth table: the parser and the table of El Santo Resumen's core (its simulator core,
 // tokensLogica, parsearLogica, textoLogica and tablaVerdad), written with the symbols of each subject. Lógica y Estructuras
-// Discretas writes ∼ ∧ ∨ ⇒ ⇔ with V and F (parcial-1.md, «Conectivos»); Inteligencia Artificial writes ∼ ⋅ ∨ ⊃ ≡ with
-// T and F (ad.md, «Los conectivos» and «Condicionales»).
+// Discretas writes ∼ ∧ ∨ ⇒ ⇔ with V and F («Conectivos»); Inteligencia Artificial writes ∼ ⋅ ∨ ⊃ ≡ with
+// T and F («Los conectivos» and «Condicionales»).
 
 export const MAX_VARIABLES = 6;
 export const MAX_LARGO = 200;

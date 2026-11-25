@@ -37,7 +37,11 @@ console.log(plan.obligatorias.find((m) => m.nombre === 'Bases de Datos'));
 
 ## Las correlativas
 
-En `plan-sistemas.json` cada materia lleva `cursadas` y `aprobadas`, como en la tabla del plan de la carrera. Son números que apuntan al campo `n` de otra materia obligatoria. Las electivas no tienen `n` pero también pueden pedir materias. `sinCorrelativas` lista las que existen en Sysacad pero no tienen correlativas cargadas. Ante la duda, manda siempre lo que diga Sysacad.
+En `plan-sistemas.json` cada materia lleva lo que pide para cursarla, como en la tabla del plan de la carrera. `cursadas` son las materias que tenés que tener regularizadas y `aprobadas`, las que tenés que tener con el final aprobado. Son números que apuntan al campo `n` de otra materia obligatoria.
+
+Las electivas no tienen `n`, pero también pueden pedir materias. En `otras` está el Seminario Integrador, que además pide aprobadas para rendirlo (`paraRendir`). `sinCorrelativas` lista las que existen en Sysacad pero no tienen correlativas cargadas.
+
+Ante la duda, manda siempre lo que diga Sysacad.
 
 ## Qué hay que saber de los datos
 

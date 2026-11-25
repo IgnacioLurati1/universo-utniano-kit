@@ -3,7 +3,7 @@ import { contorno } from './trazado.js';
 // The surfaces of the 3D grapher, in plain numbers and in the coordinates of the exercise (the scene turns them into
 // its own): the graph of z = f(x, y) and a surface by its two parameters, on a grid with its pen lines as El Santo
 // Resumen draws them (its simulator core); the surface of an equation F(x, y, z) = 0, cut out of little tetrahedra; its
-// traces, the cuts with planes parallel to the coordinate ones that the notes use to draw a quadric (parcial-1.md of
+// traces, the cuts with planes parallel to the coordinate ones that the notes use to draw a quadric (
 // Análisis Matemático II, «Superficies cuádricas»); and the level curves of f.
 
 const finito = Number.isFinite;

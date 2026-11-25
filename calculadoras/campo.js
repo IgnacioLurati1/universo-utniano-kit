@@ -1,6 +1,6 @@
 // Campo vectorial, of Análisis Matemático II: F = P i + Q j (+ R k), whether it is conservative by the crossed
 // derivatives and the domain, its potential function as the notes find it, the work between two points, and the
-// divergence and the rotor at a point. Definitions, conditions, method and examples: parcial-3.md of El Santo Resumen
+// divergence and the rotor at a point. Definitions, conditions, method and examples: El Santo Resumen
 // (course notes «7A», «7D» and «7F»; versión por unidad «18» and «19»).
 import { leerNumero } from '../formulas/decimales.js';
 import { compilar, derivar, intentar, N, simplificar, usa } from '../formulas/formula.js';

@@ -3,7 +3,7 @@ import { tiro } from './tiro.js';
 
 const redondo = (x, d) => Number(x.toFixed(d));
 
-// The examples are the course's (El Santo Resumen, fisica-i: ejercicios.json and parcial-1.md).
+// The examples are the course's (El Santo Resumen).
 describe('tiro oblicuo', () => {
   it('final 22/04/2025, problema 3: 20 m/s a 40° desde 22 m, choca a los 3 s', () => {
     const r = tiro({ v0: '20', phi: '40', y0: '22', g: '9,8', t: '3' });

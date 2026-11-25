@@ -600,10 +600,26 @@
       "horas": 4
     }
   ],
+  "otras": [
+    {
+      "id": "seminario-integrador",
+      "nombre": "Seminario Integrador",
+      "anio": 3,
+      "cursadas": [
+        16
+      ],
+      "aprobadas": [],
+      "paraRendir": [
+        6,
+        8,
+        13,
+        14
+      ]
+    }
+  ],
   "sinCorrelativas": [
     "Cobol",
     "Formación de Emprendedores",
-    "Prácticas Profesionales Supervisadas",
-    "Seminario Integrador"
+    "Prácticas Profesionales Supervisadas"
   ]
 }

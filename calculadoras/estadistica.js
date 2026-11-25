@@ -1,5 +1,5 @@
 // Measures of a data set, the box plot and a discrete random variable from its table, as the course notes of
-// Probabilidad y Estadística define them (El Santo Resumen, probabilidad-y-estadistica/parcial-1.md and parcial-2.md:
+// Probabilidad y Estadística define them (El Santo Resumen:
 // Tratamiento de datos, pág. 20 a 33, and V.A.D., pág. 2 a 6).
 
 /** The frequency table of the data, ordered: each value with its absolute frequency n and its cumulative N. */

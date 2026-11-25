@@ -6,9 +6,9 @@ import { limpio } from './trazado.js';
 
 // The 3D grapher of Análisis Matemático II: what's written on the board, read into what the scene draws. The graph of
 // z = f(x, y), the surface of an equation in x, y and z (a quadric, a plane, a cylinder), a surface by its two
-// parameters, a curve in space, points and a vector. They are the kinds of El Santo Resumen's :::grafico3d
+// parameters, a curve in space, points and a vector. They are the kinds of El Santo Resumen's:::grafico3d
 // (widgets.mjs), plus the equation. The first function, f, gets its partial derivatives and, at a point, its gradient
-// and tangent plane (parcial-1.md, «Derivadas parciales», «Diferenciabilidad y plano tangente» and «Gradiente y derivada
+// and tangent plane («Derivadas parciales», «Diferenciabilidad y plano tangente» and «Gradiente y derivada
 // direccional»), and its level curves («Curvas de nivel»).
 
 export const MAX_TRAZOS = 5;

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { combinatorio, continua, discreta, MODELOS, revisarCampo } from './distribuciones.js';
 
-// The examples of the course notes of Probabilidad y Estadística (El Santo Resumen, parcial-2.md and parcial-3.md),
+// The examples of the course notes of Probabilidad y Estadística (El Santo Resumen),
 // with the results they print.
 const r4 = (x) => Math.round(x * 1e4) / 1e4;
 const r3 = (x) => Math.round(x * 1e3) / 1e3;

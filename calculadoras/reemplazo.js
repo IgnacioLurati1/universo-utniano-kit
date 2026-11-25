@@ -1,4 +1,4 @@
-// Reemplazo de páginas of Sistemas Operativos, as the practice of virtual memory does it (parcial.md of El Santo
+// Reemplazo de páginas of Sistemas Operativos, as the practice of virtual memory does it (of El Santo
 // Resumen, «Cómo se hace el ejercicio de reemplazo»): a column per referenced page, a row per frame, and on a fault
 // who leaves. FIFO, LRU and OPT as the practice, with FIFO breaking the ties of OPT; second chance and clock as teoría
 // 3a. The bit R goes to 1 on loading and on every reference, and only the algorithm clears it. Each new page goes into

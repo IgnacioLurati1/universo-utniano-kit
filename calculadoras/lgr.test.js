@@ -4,7 +4,7 @@ import { lgr, ramas } from './lgr.js';
 const redondo = (x, d) => Number(x.toFixed(d));
 const z = (zs) => zs.map(([a, b]) => [redondo(a, 4), redondo(b, 4)]);
 
-// The examples are the slides' (El Santo Resumen, tecnologias-para-la-automatizacion: parcial.md).
+// The examples are the slides' (El Santo Resumen).
 describe('lugar geométrico de las raíces', () => {
   it('k/(s³ + 4s² + 8s), las reglas con un caso (diapositivas «7», págs. 6 a 11)', () => {
     const r = lgr({ N: '1', D: 's^3 + 4s^2 + 8s', k: '8' });

@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { campo, leerPunto } from './campo.js';
 import { escribir } from '../formulas/formula.js';
 
-// The fields and results are the course's: parcial-3.md of El Santo Resumen (course notes «7A», «7D», «7F»;
+// The fields and results are the course's: of El Santo Resumen (course notes «7A», «7D», «7F»;
 // versión por unidad «19»).
 describe('campo vectorial', () => {
   it('−y i + x j gira: Rot(F) = 2k y no es conservativo («7A», p. 1)', () => {

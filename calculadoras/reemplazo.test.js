@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { comparar, leerCadena, reemplazar } from './reemplazo.js';
 
 // The sequence of the parcial of 09/11/2022 of Sistemas Operativos, with 3 and 4 frames, and the faults El Santo
-// Resumen gives for it (propuestas.json): FIFO 16 and 8, LRU 16 and 8, OPT 10 and 8.
+// Resumen gives for it : FIFO 16 and 8, LRU 16 and 8, OPT 10 and 8.
 const PARCIAL = '0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 4, 5, 6, 7';
 
 describe('reemplazo de páginas', () => {

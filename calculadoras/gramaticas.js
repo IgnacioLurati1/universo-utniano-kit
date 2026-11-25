@@ -1,6 +1,6 @@
-// Formal grammars of Sintaxis y Semántica de los Lenguajes (parcial-2.md, «Gramáticas formales», «Derivaciones» and
+// Formal grammars of Sintaxis y Semántica de los Lenguajes («Gramáticas formales», «Derivaciones» and
 // «Jerarquía de Chomsky y máquinas»): the type of each production, the words the grammar generates and the derivation
-// of a word, with its syntax tree (parcial-1.md, «Cómo trabaja el analizador sintáctico»). The method is El Santo
+// of a word, with its syntax tree («Cómo trabaja el analizador sintáctico»). The method is El Santo
 // Resumen's (its simulator code, leerGramatica, tipoDe, clasificar, lenguaje
 // and derivar).
 

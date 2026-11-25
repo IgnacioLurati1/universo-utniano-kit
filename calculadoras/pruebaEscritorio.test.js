@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { simularCola, simularInventario, subindice } from './pruebaEscritorio.js';
 
 // The queue: the data of the course notes (Fig. 1.7, folios 7 to 13), as El Santo Resumen runs them, with the results
-// it prints in simulacion/parcial.md. The inventory: the notes' costs and demand (folios 21 to 23) with the example
+// it prints in the notes of Simulación. The inventory: the notes' costs and demand (folios 21 to 23) with the example
 // of El Santo Resumen (its own random numbers), checked against its simulator.
 const A = [0.4, 1.2, 0.5, 1.7, 0.2, 1.6, 0.2, 1.4, 1.9];
 const S = [2.0, 0.7, 0.2, 1.1, 3.7, 0.6];

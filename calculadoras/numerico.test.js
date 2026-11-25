@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest';
 import { escribir } from '../formulas/formula.js';
 import { errorRelativo, puntoFijo, pvi, raices } from './numerico.js';
 
-// The examples and results are the course's (El Santo Resumen, analisis-numerico: parcial-1.md from the PPT de Métodos
-// Cerrados y Abiertos, parcial-2.md from the Chapra).
+// The examples and results are the course's (El Santo Resumen, analisis-numerico: from the PPT de Métodos
+// Cerrados y Abiertos, from the Chapra).
 const PARACAIDISTA = '667,38/x*(1 - e^(-0,146843x)) - 40';
 const redondo = (x, d) => Number(x.toFixed(d));
 

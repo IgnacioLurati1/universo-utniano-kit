@@ -7,7 +7,7 @@ import { tramosDeCurva } from './trazado.js';
 
 // The 2D grapher of Análisis Matemático I: what's written on the board, read into what the sheet draws. A function
 // y = f(x), the curve of an equation in x and y (a circle, a fólium), a curve by its parameter or in polar coordinates,
-// and loose points or a figure joined by its points. They are the kinds of El Santo Resumen's :::grafico (widgets.mjs),
+// and loose points or a figure joined by its points. They are the kinds of El Santo Resumen's:::grafico (widgets.mjs),
 // plus the equation. The first function, f, gets its study (estudio.js), and may get its tangent and an area.
 
 export const MAX_TRAZOS = 6;

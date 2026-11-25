@@ -1,4 +1,4 @@
-// Ventana de congestión of Redes de Datos, as the notes tell it (parcial-2.md of El Santo Resumen, Capa de Transporte,
+// Ventana de congestión of Redes de Datos, as the notes tell it (El Santo Resumen, Capa de Transporte,
 // TCP, pages 14 to 16): slow start doubles the window up to the threshold, then it grows by one per round. On a loss
 // the threshold drops to half the window. Tahoe starts again from 1 with slow start; Reno, with fast recovery, goes on
 // from the new threshold. The book's figure starts with threshold 32 and loses a segment with the window at 40.

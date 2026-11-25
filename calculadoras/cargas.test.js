@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { cargas } from './cargas.js';
 
-// The examples are the course's (El Santo Resumen, fisica-ii: parcial-1.md and ejercicios.json).
+// The examples are the course's (El Santo Resumen).
 describe('campo de cargas puntuales', () => {
   const PARCIAL = { unidad: 'micro', q1: '6', p1: '0; 0', q2: '-4', p2: '1; 0', P: '0,5; 0' };
 

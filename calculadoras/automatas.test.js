@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { conj, letra, probar, resolverER } from './automatas.js';
 
-// The examples are the ones of the notes of Sintaxis y Semántica de los Lenguajes (parcial-2.md): (a|b)*abb of
+// The examples are the ones of the notes of Sintaxis y Semántica de los Lenguajes : (a|b)*abb of
 // «Método de Thompson» and «Subconjuntos» (apunte «5. Autómatas…», págs. 9 a 13), the strings aabb and aba, and the
 // expressions of «Precedencia y propiedades».
 const error = (src) => {

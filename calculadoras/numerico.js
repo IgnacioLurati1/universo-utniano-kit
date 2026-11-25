@@ -4,7 +4,7 @@ import { compilar, derivar, intentar } from '../formulas/formula.js';
 // Análisis Numérico: roots (bisección, falsa posición, Newton-Raphson, secante), iteración de punto fijo and the
 // one-step methods for an initial value problem (Euler, Heun, punto medio, Runge-Kutta de cuarto orden). Formulas,
 // order of the operations, names and errors (εa, εs, εt) are the course's (El Santo Resumen, analisis-numerico,
-// parcial-1.md and parcial-2.md, from the PPT de Métodos Cerrados y Abiertos and the Chapra). The student's own run
+// from the PPT de Métodos Cerrados y Abiertos and the Chapra). The student's own run
 // is El Santo Resumen's simulator (interactivos.js), with the derivative of Newton-Raphson done by the rules.
 
 const MAX_ITERACIONES = 50;

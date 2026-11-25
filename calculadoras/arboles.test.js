@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { leerArbol, recorrer } from './arboles.js';
 
-// The example is the one of the notes of Lógica y Estructuras Discretas (parcial-3.md, «Recorridos», Árboles.pdf,
+// The example is the one of the notes of Lógica y Estructuras Discretas («Recorridos», Árboles.pdf,
 // páginas 7 a 9), with the preorder and postorder it gives.
 const orden = (t, cual) => recorrer(t.raiz, cual).map((v) => v.e).join(' ');
 

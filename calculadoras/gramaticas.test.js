@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { arbolDerivacion, clasificar, derivar, leerGramatica, lenguaje } from './gramaticas.js';
 
-// The examples are the ones of the notes of Sintaxis y Semántica de los Lenguajes (parcial-2.md, «Derivaciones» and
+// The examples are the ones of the notes of Sintaxis y Semántica de los Lenguajes («Derivaciones» and
 // «Jerarquía de Chomsky y máquinas», apunte «4. Gramáticas», págs. 3 a 12), with the derivations they write.
 const cadena = (d) => d.camino.map((x) => x.f || 'ε').join(' ⇒ ');
 

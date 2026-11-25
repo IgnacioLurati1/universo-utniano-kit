@@ -1,4 +1,4 @@
-// Binary trees of Lógica y Estructuras Discretas (parcial-3.md, «Árbol de una expresión» and «Recorridos»): the tree of
+// Binary trees of Lógica y Estructuras Discretas («Árbol de una expresión» and «Recorridos»): the tree of
 // an expression, or one written as A(B, C(, D)), and its three traversals. The parsers are El Santo Resumen's
 // (its simulator code, arbolDeExpresion and arbolAnidado).
 

@@ -1,6 +1,6 @@
 import { leerNumero, redondear } from './cifras.js';
 
-// Planificación de la CPU of Sistemas Operativos, as the course notes do it (parcial.md of El Santo Resumen, teoría 2b
+// Planificación de la CPU of Sistemas Operativos, as the course notes do it (El Santo Resumen, teoría 2b
 // and the practice of planning): FCFS, SJF and SRTN for batches, Round Robin and priority for interactive systems.
 // Waiting and turnaround as the practice measures them. The logic is El Santo Resumen's simulator
 // (its simulator code), returning what happens instead of sentences.

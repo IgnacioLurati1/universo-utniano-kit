@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { aTexto, leerRed, subdividir } from './subred.js';
 
-// The practice's examples of Redes de Datos (parcial-2.md of El Santo Resumen, Conceptos IPv4): 192.168.168.0/24 in 8
+// The practice's examples of Redes de Datos (of El Santo Resumen, Conceptos IPv4): 192.168.168.0/24 in 8
 // areas gives 3 bits, /27, 255.255.255.224, 30 hosts and salto 32; 192.168.0.0/24 in 20 networks gives 5 bits, /29,
 // 255.255.255.248, 6 hosts and salto 8. The guide's problem 9: 5 machines need 3 host bits and the mask ends in 248.
 // And the AND of the practice: 192.168.55.44 with 255.255.255.0 is the network 192.168.55.0, broadcast .255.

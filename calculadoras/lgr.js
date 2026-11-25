@@ -1,7 +1,7 @@
 // Lugar geométrico de las raíces, of Tecnologías para la Automatización: FTLA = k·N(s)/D(s) with unit feedback. The
 // poles and zeros, the construction rules of the slides (real axis, asymptotes and centroid, crossing of the imaginary
 // axis with s = iω, breakaway with dk/ds = 0, departure angles), the range of k that keeps it stable, the closed-loop
-// poles for a chosen k and the branches for the drawing. Rules, notation and examples: parcial.md of El Santo Resumen
+// poles for a chosen k and the branches for the drawing. Rules, notation and examples: El Santo Resumen
 // (diapositivas «7 - Lugar geométrico de las raíces», págs. 2 a 11; «9 - Controladores», págs. 6 y 9).
 import { leerNumero } from '../formulas/decimales.js';
 import { compilar, intentar, usa } from '../formulas/formula.js';

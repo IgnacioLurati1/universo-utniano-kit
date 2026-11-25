@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { detectar, leerDatos, vector } from './interbloqueos.js';
 
-// Figure 6-7 of Sistemas Operativos (parcial.md of El Santo Resumen, teoría 5c): E = (4 2 3 1), A = (2 1 0 0). Process 3
+// Figure 6-7 of Sistemas Operativos (of El Santo Resumen, teoría 5c): E = (4 2 3 1), A = (2 1 0 0). Process 3
 // runs and leaves A = (2 2 2 0), then 2 with (4 2 2 1), then 1. If process 2 also asked for a CD-ROM, 1 and 2 would be
 // deadlocked; if process 3 asked for it, as the book does, the whole system would.
 const texto = (M) => M.map((f) => f.map(String));

@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { parsear, tablaVerdad, texto } from './proposiciones.js';
 
-// The examples are the ones of the notes of Lógica y Estructuras Discretas (parcial-1.md, «Conectivos», «Tautología,
-// contradicción y ley lógica» and «Razonamientos») and of Inteligencia Artificial (ad.md, «Formas sentenciales» and
+// The examples are the ones of the notes of Lógica y Estructuras Discretas («Conectivos», «Tautología,
+// contradicción y ley lógica» and «Razonamientos») and of Inteligencia Artificial («Formas sentenciales» and
 // «Teoremas de De Morgan»).
 const columna = (r, i) => r.columnas[i].vals.map((v) => (v ? 'V' : 'F')).join('');
 

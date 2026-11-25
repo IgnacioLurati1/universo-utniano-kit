@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { caja, desplegar, frecuencias, medidas, variableDiscreta } from './estadistica.js';
 
-// The data of the course notes of Probabilidad y Estadística (El Santo Resumen, parcial-1.md and parcial-2.md):
+// The data of the course notes of Probabilidad y Estadística (El Santo Resumen):
 // the terminal used during 50 days (Tratamiento de datos, pág. 11 to 29), the 30 backups of the stem-and-leaf
 // diagram (pág. 13 and 30) and Tabla 3.1 of the unsatisfied clients (V.A.D., pág. 3 to 6).
 const TERMINAL = desplegar([84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94].map((x, i) => ({ x, n: [2, 4, 3, 7, 10, 9, 5, 6, 3, 0, 1][i] })));

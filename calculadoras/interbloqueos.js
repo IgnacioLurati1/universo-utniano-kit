@@ -1,5 +1,5 @@
 // Detección de interbloqueos con varios recursos de cada tipo, as the course notes of Sistemas Operativos do it
-// (parcial.md of El Santo Resumen, teoría 5c, figure 6-7): E existing, A available, C current allocation and R
+// (El Santo Resumen, teoría 5c, figure 6-7): E existing, A available, C current allocation and R
 // requests. While some unmarked process has its row of R less than or equal to A, its row of C is added to A and it is
 // marked. The unmarked ones left are deadlocked. Every resource is allocated or available: ΣC + A = E.
 // Logic of El Santo Resumen's simulator (its simulator code).

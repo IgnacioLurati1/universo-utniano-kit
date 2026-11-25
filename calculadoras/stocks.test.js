@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { basico, escalon, excedente, financiera, ingreso, periodo, seguridad } from './stocks.js';
 
-// The examples of the notes of Gestión de Stocks (El Santo Resumen, investigacion-operativa/parcial-3.md), with the
+// The examples of the notes of Gestión de Stocks (El Santo Resumen), with the
 // results they print.
 const r = (x, d = 2) => Math.round(x * 10 ** d) / 10 ** d;
 

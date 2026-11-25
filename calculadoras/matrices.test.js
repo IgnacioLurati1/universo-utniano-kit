@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { determinante, inversa, leerFr, leerMatriz, rango, textoFr } from './matrices.js';
 
-// The examples are the ones of the course notes of Álgebra y Geometría Analítica (El Santo Resumen, parcial-2.md),
+// The examples are the ones of the course notes of Álgebra y Geometría Analítica (El Santo Resumen),
 // with the results they give.
 const M = (filas) => leerMatriz(filas.map((f) => f.map(String))).matriz;
 const texto = (A) => A.map((f) => f.map(textoFr));

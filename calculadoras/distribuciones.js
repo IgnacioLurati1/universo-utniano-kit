@@ -1,5 +1,5 @@
 // The distributions of Probabilidad y Estadística as the course notes define them (V.A.D., V.A.C. and Material 5 of
-// El Santo Resumen, probabilidad-y-estadistica/parcial-2.md and parcial-3.md): Binomial, Hipergeométrica, Poisson,
+// El Santo Resumen): Binomial, Hipergeométrica, Poisson,
 // Normal, Exponencial, Uniforme, t de Student and Chi-cuadrado. The numeric pieces (log-gamma, the normal's
 // distribution, the incomplete gamma and beta, inversion by halves) are the simulator's of El Santo Resumen
 // (its simulator code), ported as they are.

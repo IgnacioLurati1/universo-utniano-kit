@@ -1,4 +1,4 @@
-// Regular expressions of Sintaxis y Semántica de los Lenguajes (parcial-2.md, «Expresiones regulares», «Finito o
+// Regular expressions of Sintaxis y Semántica de los Lenguajes («Expresiones regulares», «Finito o
 // infinito, y la palabra más corta», «Método de Thompson» and «Subconjuntos»): the NFA by Thompson with its states
 // numbered as the notes do, the DFA by subsets and a string tried on it. The method is El Santo Resumen's
 // (its simulator code, leerER, thompson, afd and palabrasDe).

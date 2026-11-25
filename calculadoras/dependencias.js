@@ -1,4 +1,4 @@
-// Functional dependencies of Bases de Datos (parcial-1.md, «Claves y reglas de integridad» and «Normalización»): the
+// Functional dependencies of Bases de Datos («Claves y reglas de integridad» and «Normalización»): the
 // closure of a set, the candidate keys, the normal form and the decomposition into 3FN, with the tables written as the
 // course does (CP and CF, the course's own corrections to the conversion). The method is El Santo Resumen's
 // (its simulator code, motor, pasosCierre, pasosClaves, formas and descomponer).
