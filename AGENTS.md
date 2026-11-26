@@ -21,6 +21,11 @@ moderno (ESM), sin compilar.
   lo tenés que decir en su página de privacidad.
 - **Ejemplos y pruebas con datos inventados.** Mails de `ejemplo.com`, nombres que no son de nadie.
 
+## Guías por pieza
+
+`.claude/skills/` tiene una guía por tarea: `moodle`, `sysacad`, `formulas`, `calculadora-nueva`, `horarios-facultad`,
+`objeto-3d` y, antes de un pull request, `aportar`. Leé la que toque antes de cambiar esa pieza.
+
 ## Cómo se prueba
 
 ```

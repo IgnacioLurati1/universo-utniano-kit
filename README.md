@@ -31,6 +31,13 @@ npm ci
 npm test
 ```
 
+## Para tu asistente de código
+
+En [`.claude/skills/`](.claude/skills) hay guías para Claude Code sobre cómo usar y cambiar las piezas sin romper sus
+reglas: `moodle`, `sysacad`, `formulas`, `calculadora-nueva`, `horarios-facultad`, `objeto-3d` y `aportar`. Si clonás
+el repo, Claude Code las encuentra solo. Si copiás una pieza a tu proyecto, llevate también su guía a
+`.claude/skills/` de tu proyecto. Son Markdown, así que otros asistentes las pueden leer igual.
+
 ## Aportar
 
 Abrí un issue o un pull request. Antes leé [AGENTS.md](AGENTS.md), con las reglas que cuidan los datos de cada alumno.
