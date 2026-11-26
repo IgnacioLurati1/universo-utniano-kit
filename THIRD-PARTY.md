@@ -8,12 +8,13 @@ No hay código de terceros copiado adentro de las piezas. Lo que usan se instala
 |---|---|---|
 | fflate | MIT | `facultad/` para leer las planillas de horarios |
 | pdfjs-dist | Apache-2.0 | `facultad/` para leer los PDF de la facultad |
+| three | MIT | `facu-3d/` para dibujar la entrada (en el kit, solo para las pruebas) |
 | vitest | MIT | las pruebas |
 | jsdom | MIT | las pruebas que necesitan una página |
 
 ## Lo que no entra en la licencia MIT
 
-- El emblema de la UTN de `universo/carga-utn` es de la Universidad Tecnológica Nacional.
+- El emblema de la UTN de `universo/carga-utn` y de `facu-3d` es de la Universidad Tecnológica Nacional.
 - Las páginas de `sysacad/paginas-de-prueba` son copias de páginas de la UTN con datos inventados.
 - Los horarios y el calendario de `facultad/datos` salen de lo que publica la facultad. El kit los ordena en JSON.
 

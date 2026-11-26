@@ -14,6 +14,7 @@ No es un proyecto oficial de la UTN.
 | [`formulas/`](formulas) | Leer fórmulas escritas como en clase («e^(-x) - x», «sen(x)/x») y derivarlas, sin `eval` |
 | [`calculadoras/`](calculadoras) | La lógica de las calculadoras de las materias. Autómatas, gramáticas, subredes, planificación, banquero, numérico, matrices y más |
 | [`facultad/`](facultad) | Horarios, calendario y plan de Ingeniería en Sistemas de FRRO en JSON, con el script que los actualiza |
+| [`facu-3d/`](facu-3d) | La entrada de la facultad en 3D, de fondo detrás de una página o sola para girarla |
 | [`utiles/`](utiles) | Texto plano de un HTML, links seguros, formato sin HTML, CSV y un proceso de fondo sin red |
 | [`universo/carga-utn`](universo/carga-utn) | La animación de carga con el emblema de la UTN |
 | [`universo/entrar-con-el-universo`](universo/entrar-con-el-universo) | Que tus usuarios entren con su cuenta del Universo UTNiano |
@@ -37,5 +38,5 @@ Los asistentes de código lo leen solos. Nunca le pases tu usuario ni tu clave d
 
 ## Licencia
 
-[MIT](LICENSE). El emblema de la UTN y las páginas de prueba de Sysacad no entran en la licencia. Lo de terceros está en
+[MIT](LICENSE). El emblema de la UTN (en `universo/carga-utn` y `facu-3d`) y las páginas de prueba de Sysacad no entran en la licencia. Lo de terceros está en
 [THIRD-PARTY.md](THIRD-PARTY.md).
